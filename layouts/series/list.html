@@ -1,0 +1,30 @@
+{{ define "main" }}
+<article>
+    <h1>{{ .Title }}</h1>
+
+    {{ if .Content }}
+    <div class="content" style="margin: 2rem 0;">
+        {{ .Content }}
+    </div>
+    {{ end }}
+
+    {{ if .Pages }}
+    <div class="series-articles" style="margin-top: 3rem;">
+        <h2>Articles in this series:</h2>
+        <ol style="font-size: 1.1rem; line-height: 2;">
+            {{ range .Pages.ByParam "series_order" }}
+            <li style="margin-bottom: 1.5rem;">
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+                {{ if .Params.subtitle }}
+                <br><em style="font-size: 0.9rem; color: var(--color-text-light);">{{ .Params.subtitle }}</em>
+                {{ end }}
+                {{ if .Description }}
+                <br><span style="font-size: 0.9rem; color: var(--color-text-light);">{{ .Description }}</span>
+                {{ end }}
+            </li>
+            {{ end }}
+        </ol>
+    </div>
+    {{ end }}
+</article>
+{{ end }}

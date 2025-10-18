@@ -1,0 +1,88 @@
+baseURL = 'https://walat.eu/'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+
+# Enable emoji support in content
+enableEmoji = true
+
+# Syntax highlighting
+[markup]
+  [markup.highlight]
+    style = 'monokai'
+    lineNos = true
+    lineNumbersInTable = false
+
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      # Allow HTML in markdown
+      unsafe = true
+
+# Development server settings
+[server]
+  # Enable live reload (default: true)
+  # Port will be auto-assigned or use --port flag
+
+# Taxonomies (tags, categories, etc.)
+[taxonomies]
+  tag = 'tags'
+  category = 'categories'
+  series = 'series'
+
+# Language configuration
+[languages]
+  [languages.en]
+    languageCode = 'en-US'
+    languageName = 'English'
+    title = 'Dariusz Walat'
+    weight = 1
+
+    [languages.en.params]
+      description = 'Senior Software Engineer | Building Production Systems'
+      author = 'Dariusz Walat'
+      email = 'dariusz@walat.eu'
+      location = 'Poland (EU Timezone)'
+      linkedin = 'https://www.linkedin.com/in/dariusz-walat'
+
+    [[languages.en.menu.main]]
+      name = 'Home'
+      url = '/'
+      weight = 10
+    [[languages.en.menu.main]]
+      name = 'About'
+      url = '/about/'
+      weight = 20
+    [[languages.en.menu.main]]
+      name = 'Contact'
+      url = '/contact/'
+      weight = 30
+
+  [languages.pl]
+    languageCode = 'pl-PL'
+    languageName = 'Polski'
+    title = 'Dariusz Walat'
+    weight = 2
+
+    [languages.pl.params]
+      description = 'Senior Software Engineer | Buduję systemy produkcyjne'
+      author = 'Dariusz Walat'
+      email = 'dariusz@walat.eu'
+      location = 'Polska (strefa EU)'
+      linkedin = 'https://www.linkedin.com/in/dariusz-walat'
+
+    [[languages.pl.menu.main]]
+      name = 'Start'
+      url = '/pl/'
+      weight = 10
+    [[languages.pl.menu.main]]
+      name = 'O mnie'
+      url = '/pl/about/'
+      weight = 20
+    [[languages.pl.menu.main]]
+      name = 'Kontakt'
+      url = '/pl/contact/'
+      weight = 30
+
+# Global params
+[params]
+  description = 'Senior Software Engineer | Building Production Systems with AI Coding Agents'
+  author = 'Dariusz Walat'

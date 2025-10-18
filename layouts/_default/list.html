@@ -1,0 +1,28 @@
+{{ define "main" }}
+<section>
+    <h2>{{ .Title }}</h2>
+    {{ .Content }}
+
+    {{ if .Pages }}
+    <ul style="list-style: none; padding: 0;">
+        {{ range .Pages }}
+        <li style="margin-bottom: 1.5rem;">
+            <h3 style="margin-bottom: 0.5rem;">
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </h3>
+            {{ if .Date }}
+            <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.5rem;">
+                {{ .Date.Format "January 2, 2006" }}
+            </p>
+            {{ end }}
+            {{ if .Summary }}
+            <p>{{ .Summary }}</p>
+            {{ end }}
+        </li>
+        {{ end }}
+    </ul>
+    {{ else }}
+    <p>No content available yet.</p>
+    {{ end }}
+</section>
+{{ end }}
