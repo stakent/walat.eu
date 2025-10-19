@@ -9,10 +9,12 @@
     {{ end }}
 
     {{ if .Pages }}
+    {{ $publishedPages := where .Pages "Draft" false }}
+    {{ if $publishedPages }}
     <div class="series-articles" style="margin-top: 3rem;">
         <h2>Articles in this series:</h2>
-        <ol style="font-size: 1.1rem; line-height: 2;">
-            {{ range .Pages.ByParam "series_order" }}
+        <ul style="font-size: 1.1rem; line-height: 2; list-style-type: none; padding-left: 0;">
+            {{ range $publishedPages.ByParam "series_order" }}
             <li style="margin-bottom: 1.5rem;">
                 <a href="{{ .Permalink }}">{{ .Title }}</a>
                 {{ if .Params.subtitle }}
@@ -23,8 +25,9 @@
                 {{ end }}
             </li>
             {{ end }}
-        </ol>
+        </ul>
     </div>
+    {{ end }}
     {{ end }}
 </article>
 {{ end }}

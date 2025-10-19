@@ -5,10 +5,14 @@
 Always use this command to start Hugo server so it's accessible on the local network (for mobile testing):
 
 ```bash
-hugo server --bind 0.0.0.0 --buildDrafts --disableFastRender
+hugo server --bind 0.0.0.0 --buildDrafts --buildFuture --disableFastRender
 ```
 
-This allows viewing the site from mobile devices on the same local network.
+This allows:
+- Viewing the site from mobile devices on the same local network (`--bind 0.0.0.0`)
+- Previewing draft content (`--buildDrafts`)
+- Viewing articles with future publication dates (`--buildFuture`)
+- Immediate updates without caching (`--disableFastRender`)
 
 ## Site Positioning and Voice
 
