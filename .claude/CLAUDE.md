@@ -28,3 +28,9 @@ This allows:
 - English content files use standard names (e.g., `_index.md`)
 - Polish content files use `.pl.md` extension (e.g., `_index.pl.md`)
 - Use `<!-- FIXME: Translate this content from English version once finalized -->` for content pending translation
+
+## Content Frontmatter
+
+- **Dates:** Use date format only (`2025-10-21`), never add time component (`2025-10-21T14:30:00`)
+- Never invent dates or timestamps (hour:minute:second) out of thin air
+- This applies to both `date` and `lastmod` fields in all content files

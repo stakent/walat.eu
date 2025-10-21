@@ -1,7 +1,7 @@
 ---
 title: "AI Coding Agents in Practice: A Living Research Series"
 date: 2025-10-19
-lastmod: 2025-10-19
+lastmod: 2025-10-21
 author: "Dariusz Walat"
 slug: "ai-agents-series-introduction"
 description: "Documenting what actually happens when you build production-ready systems with AI coding agents. Not theory. Not speculation. Operational patterns from real software development."
@@ -66,6 +66,11 @@ Writing about AI agents as if findings are permanent would be dishonest. They're
 The date on each essay matters. What's true today may not be true in weeks or months. Technology evolves faster than documentation.
 
 ## Published Articles
+
+**[AI Coding Agents Are Plausible Bullshit Generators](/series/ai-agents-in-practice/plausible-bullshit/)**
+*October 18, 2025*
+
+When agents generate convincing documentation for functionality they never implemented. Why you must verify everything yourself, and what this means for production systems.
 
 **[Why This Series Can Never Be Finished](/series/ai-agents-in-practice/why-this-series-cannot-be-finished/)**
 *October 19, 2025*
