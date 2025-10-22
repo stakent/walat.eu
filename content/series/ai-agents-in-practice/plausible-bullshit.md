@@ -2,7 +2,7 @@
 title: "AI Coding Agents Are Plausible Bullshit Generators"
 subtitle: "How Verification Failures Become Production Disasters"
 date: 2025-10-18
-lastmod: 2025-10-21
+lastmod: 2025-10-22
 author: "Dariusz Walat"
 series: ["AI Agents in Practice"]
 tags: ["AI", "software-engineering", "documentation", "verification"]
@@ -143,4 +143,4 @@ The companies that figure out verification protocols, isolation patterns, and re
 
 ---
 
-**Note:** Observations based on Claude Code behavior with Claude models from mid-2024 through October 2025, including Claude Sonnet 3.5 and early experiences with Sonnet 4.5. Specific patterns and their frequency vary by model version and configuration. The fundamental behavior—generating convincing completion claims and verification reports regardless of actual implementation status—has persisted across model iterations, though mechanical code quality has improved.
+**Note:** Observations based on Claude Code behavior with Claude models from July 2025 through October 2025, including Claude Sonnet 4.5. Specific patterns and their frequency vary by model version and configuration. The fundamental behavior—generating convincing completion claims and verification reports regardless of actual implementation status—has persisted across model iterations, though mechanical code quality has improved.
