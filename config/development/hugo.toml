@@ -7,7 +7,7 @@
     source = "content"
     target = "content"
   [[module.mounts]]
-    source = "/home/d/writing/content"
+    source = "/home/d/project/writing/content"
     target = "content"
   [[module.mounts]]
     source = "static"
