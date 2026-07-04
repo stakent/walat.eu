@@ -52,10 +52,6 @@ enableEmoji = true
       url = '/series/ai-agents-in-practice/'
       weight = 15
     [[languages.en.menu.main]]
-      name = 'About'
-      url = '/about/'
-      weight = 20
-    [[languages.en.menu.main]]
       name = 'CV'
       url = '/cv/'
       weight = 25
@@ -85,10 +81,6 @@ enableEmoji = true
       name = 'AI Agents w praktyce'
       url = '/pl/series/ai-agents-in-practice/'
       weight = 15
-    [[languages.pl.menu.main]]
-      name = 'O mnie'
-      url = '/pl/about/'
-      weight = 20
     [[languages.pl.menu.main]]
       name = 'Kontakt'
       url = '/pl/contact/'
