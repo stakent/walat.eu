@@ -56,6 +56,10 @@ enableEmoji = true
       url = '/about/'
       weight = 20
     [[languages.en.menu.main]]
+      name = 'CV'
+      url = '/cv/'
+      weight = 25
+    [[languages.en.menu.main]]
       name = 'Contact'
       url = '/contact/'
       weight = 30
