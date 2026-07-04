@@ -1,6 +1,13 @@
 # walat.eu
 
-Personal professional website for Dariusz Walat - Senior Software Engineer specializing in AI-augmented development.
+Personal professional website for Dariusz Walat — Senior Software Engineer. Trustworthy output from untrustworthy data.
+
+## Generated content — do not hand-edit
+
+`content/cv.md` and `static/dariusz_walat_cv.pdf` are generated projections
+of the canonical CV markdown, which is maintained outside this repo. To
+change the CV, edit the canonical source and re-run its publish script
+(`publish-cv-to-site.sh`), then commit the regenerated files here.
 
 ## Development
 
