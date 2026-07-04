@@ -37,7 +37,7 @@ enableEmoji = true
     weight = 1
 
     [languages.en.params]
-      description = 'Senior Software Engineer | Building Production Systems'
+      description = 'Senior Software Engineer | Trustworthy Output from Untrustworthy Data'
       author = 'Dariusz Walat'
       email = 'dariusz@walat.eu'
       location = 'Poland (EU Timezone)'
@@ -96,5 +96,5 @@ enableEmoji = true
 
 # Global params
 [params]
-  description = 'Senior Software Engineer | Building Production Systems with AI Coding Agents'
+  description = 'Senior Software Engineer | Trustworthy Output from Untrustworthy Data'
   author = 'Dariusz Walat'
