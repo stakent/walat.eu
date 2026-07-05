@@ -60,31 +60,6 @@ enableEmoji = true
       url = '/contact/'
       weight = 30
 
-  [languages.pl]
-    languageCode = 'pl-PL'
-    languageName = 'Polski'
-    title = 'Dariusz Walat'
-    weight = 2
-
-    [languages.pl.params]
-      description = 'Senior Software Engineer | Buduję systemy produkcyjne'
-      author = 'Dariusz Walat'
-      email = 'dariusz@walat.eu'
-      location = 'Polska (strefa EU)'
-      linkedin = 'https://www.linkedin.com/in/dariusz-walat'
-
-    [[languages.pl.menu.main]]
-      name = 'Start'
-      url = '/pl/'
-      weight = 10
-    [[languages.pl.menu.main]]
-      name = 'AI Agents w praktyce'
-      url = '/pl/series/ai-agents-in-practice/'
-      weight = 15
-    [[languages.pl.menu.main]]
-      name = 'Kontakt'
-      url = '/pl/contact/'
-      weight = 30
 
 # Global params
 [params]
