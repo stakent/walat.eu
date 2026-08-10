@@ -1,7 +1,7 @@
 ---
 title: "AI Coding Agents in Practice"
 date: 2025-10-19
-lastmod: 2026-05-14
+lastmod: 2026-08-10
 author: "Dariusz Walat"
 slug: "ai-agents-series-introduction"
 description: "Operational patterns from building production-ready systems with AI coding agents — snapshots from real engineering as the technology evolves."
@@ -24,6 +24,11 @@ When agents generate convincing documentation for functionality they never imple
 *October 19, 2025*
 
 When your research subject evolves faster than you can document it. Why documenting rapidly-evolving AI technology requires a fundamentally different approach than traditional software documentation.
+
+**[Token Counting for Fun and Profit](/series/ai-agents-in-practice/token-counting-for-fun-and-profit/)**
+*August 10, 2026*
+
+What fills a session's context and what empties its cache. The two factors that set how fast a subscription usage limit runs out, and why neither one is a setting you choose.
 
 ## On reading these
 
